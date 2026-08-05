@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classless CSS Framework Test</title>
+  <!-- Link your custom classless CSS stylesheet here -->
+  <link rel="stylesheet" href="nokull.css">
+</head>
+<body>
+
+  <header>
+    <h1>Classless CSS Test</h1>
+    <p>A pure semantic HTML5 page designed to test classless CSS frameworks.</p>
+    <nav>
+      <a href="#typography">Typography</a> | 
+      <a href="#forms">Forms</a> | 
+      <a href="#tables">Tables & Code</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Typography & Inline Elements -->
+    <section id="typography">
+      <h2>1. Typography & Inline Elements</h2>
+      <p>
+        This is a standard paragraph. You can test <strong>strong emphasis</strong>, <em>italic text</em>, 
+        <a href="#">hyperlinks</a>, and <mark>high</mark><mark data-color="yellow">lig</mark><mark data-color="red">hted</mark><mark data-color="green"> text.</mark> 
+        We also support <del>deleted text</del>, <ins>inserted text</ins>, and <small>small fine print</small>.
+      </p>
+
+      <figure>
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1000" alt="코딩 중인 노트북">
+        <figcaption>This is a caption, and very funny text</figcaption>
+      </figure>
+
+      <h3>Heading Level 3</h3>
+      <h4>Heading Level 4</h4>
+
+      <blockquote>
+        "Simplicity is about subtracting the obvious and adding the meaningful."
+        <cite>- John Maeda</cite>
+      </blockquote>
+
+      <ul>
+        <li>Unordered list item 1</li>
+        <li>Unordered list item 2
+          <ul>
+            <li>Nested list item A</li>
+            <li>Nested list item B</li>
+          </ul>
+        </li>
+      </ul>
+
+      <ol>
+        <li>Ordered list item 1</li>
+        <li>Ordered list item 2</li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <!-- 2. Form Elements -->
+    <section id="forms">
+      <h2>2. Forms & Interactive Elements</h2>
+      <form onSubmit="return false;">
+        <fieldset>
+          <legend>Input Controls</legend>
+
+          <p>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" placeholder="John Doe">
+          </p>
+
+          <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" placeholder="john@example.com">
+          </p>
+
+          <p>
+            <label for="select">Select Option:</label><br>
+            <select id="select">
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="bio">Biography:</label><br>
+            <textarea id="bio" rows="4" placeholder="Write a few lines about yourself..."></textarea>
+          </p>
+
+          <p>
+            <label><input type="checkbox" checked> I agree to the terms (Checkbox)</label><br>
+            <label><input type="radio" name="r" checked> Radio choice A</label>
+            <label><input type="radio" name="r"> Radio choice B</label>
+          </p>
+
+          <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button disabled>Disabled</button>
+          </p>
+        </fieldset>
+      </form>
+
+      <details>
+        <summary>Collapsible Details (details & summary)</summary>
+        <p>This hidden content expands and collapses natively without JavaScript.</p>
+      </details>
+    </section>
+
+    <hr>
+
+    <!-- 3. Tables & Code -->
+    <section id="tables">
+      <h2>3. Tables & Code Blocks</h2>
+
+      <table>
+        <caption>Sample Data Table</caption>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Alex Smith</td>
+            <td>Developer</td>
+            <td>Active</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sarah Connor</td>
+            <td>Designer</td>
+            <td>Pending</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Technical Formatting</h3>
+      <p>Use <code>const count = 42;</code> for inline code, and show shortcuts like <kbd>Ctrl</kbd> + <kbd>C</kbd>.</p>
+
+      <pre><code>// Sample code block
+function greet(user) {
+  console.log(`Hello, ${user}!`);
+}
+greet('World');</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Classless CSS Framework. Built with modern semantic HTML.</p>
+  </footer>
+
+</body>
+</html>
