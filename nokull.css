@@ -10,8 +10,8 @@
     --box-bg-color: #e2e2e2;
     --button-bg-color: #ebebeb;
     --blockquote-bg-color: #f0f0f0;
-    --blockqoute-border: 1px solid rgba(0, 0, 0, 0.12);
-    --blockqoute-border-left: 4px solid #3f3f3f;
+    --blockquote-border: 1px solid rgba(0, 0, 0, 0.12);
+    --blockquote-border-left: 5px solid #3f3f3f;
     --hr-color: #d2d2d2;
     --mark-blue: #a8deff;
     --mark-yellow: #f1fda1;
@@ -95,8 +95,8 @@ blockquote {
     border-radius: var(--border-radius);
     color: inherit;
 
-    border: var(--blockqoute-border);
-    border-left: var(--blockqoute-border-left);
+    border: var(--blockquote-border);
+    border-left: var(--blockquote-border-left);
 }
 
 blockquote p {
