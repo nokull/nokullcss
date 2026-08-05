@@ -32,4 +32,7 @@ We also support <del>deleted text</del>, <ins>inserted text</ins>, and <small>sm
 </p>
 ```
 
+In addition to the existing designs, you can also write your own CSS to override them with the design you prefer.
+
 Please refer to [index.html](./index.html) for details.
+
