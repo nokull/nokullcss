@@ -2,7 +2,7 @@
 
 > A clean and warm classless CSS framework.
 
-Demo: https://nokullcss.vercel.app/
+Demo: https://nokull.github.io/nokullcss/
 
 ```html
 <!DOCTYPE html>
