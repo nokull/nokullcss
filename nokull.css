@@ -1,3 +1,6 @@
+/*! nokull.css ! - the classless css framework */
+/*! https://github.com/nokull/nokullcss, MIT License, Copyright (c) 2026 SinokaDev */
+
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 :root {
@@ -26,7 +29,7 @@ body {
 
     background-color: var(--bg-color);
     color: var(--text-color);
-    text-align: center;
+    padding: 1rem;
 }
 
 a {
@@ -37,26 +40,6 @@ a {
 
 a:hover {
     color: var(--link-hover-color);
-}
-
-nav a {
-    color: var(--gray);
-    font-weight: 600;
-    padding: 0.5em 0.6em;
-    border-radius: 6px;
-}
-
-nav a:hover {
-    color: var(--gray);
-    background-color: var(--button-bg-color);
-}
-
-main {
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    padding: 0 1.5rem;      
 }
 
 button {
@@ -121,7 +104,7 @@ blockquote p {
 }
 
 figure {
-    text-align: center;
+    margin: 0;
 }
 
 cite, figcaption {
@@ -131,10 +114,10 @@ cite, figcaption {
 
 figcaption {
     margin-top: 0.5rem;
+    margin-bottom: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 1.2em;
   margin-bottom: 0.4em;
   line-height: 1.25;
   font-weight: 700;
@@ -149,14 +132,7 @@ hr {
   margin: 24px 0;
 }
 
-img, image {
-  margin: auto;
-  display: block;
-  
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  
+img, image {  
   border-radius: var(--border-radius);
   border: var(--border);
 }
@@ -244,14 +220,6 @@ details summary {
 
 details p {
     margin: 0.5rem 1rem 1rem 1rem;
-}
-
-footer {
-    margin: 0;
-    margin-top: 5rem;
-    padding: 5rem;
-    background-color: var(--text-color);
-    color: var(--bg-color);   
 }
 
 caption {
