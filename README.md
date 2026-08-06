@@ -36,3 +36,6 @@ In addition to the existing designs, you can also write your own CSS to override
 
 Please refer to [index.html](./index.html) for details.
 
+## LICENSE
+
+This project is licensed under the MIT License. Unless otherwise noted, this license applies to all released versions of this project.
