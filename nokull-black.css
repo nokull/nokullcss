@@ -25,6 +25,9 @@
     --mark-yellow: #665d20;
     --mark-red: #703b3b;
     --mark-green: #315f3b;
+
+    --backgrount-color2: #101010;
+    --text-color2: white;
 }
 
 body {
@@ -122,3 +125,4 @@ pre {
     color: #f8f8f2;
     border-color: rgba(255, 255, 255, 0.12);
 }
+
