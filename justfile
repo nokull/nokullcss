@@ -1,6 +1,7 @@
 release version:
     cleancss -o nokull.min.css nokull.css
     cleancss -o nokull-layout.min.css nokull-layout.css
+    cleancss -o nokull-black.min.css nokull-black.css
 
     git add .
     git commit -m "Release v{{version}}"
