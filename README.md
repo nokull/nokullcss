@@ -11,8 +11,8 @@ Demo: https://nokull.github.io/nokullcss/
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awesome Title</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nokull/nokullcss@v1.0.3/nokull.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nokull/nokullcss@v1.0.3/nokull-layout.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nokull/nokullcss@v1.0.6/nokull.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nokull/nokullcss@v1.0.6/nokull-layout.min.css">
 </head>
 <body>
 <header>
