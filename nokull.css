@@ -68,7 +68,7 @@ button {
     cursor: pointer;
     user-select: none;
   
-    transition: all 0.1s ease;
+    transition: background-color 0.1s ease, border-color 0.1s ease, opacity 0.1s ease;
 
     -webkit-tap-highlight-color: transparent;
 }
@@ -221,14 +221,20 @@ input[type="radio"], input[type="checkbox"] {
 details {
     border-radius: var(--border-radius);
     border: var(--border);
+    overflow: hidden;
 }
 
 details summary {
     padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+details[open] summary {
+    border-bottom: var(--border);
 }
 
 details p {
-    margin: 0.5rem 1rem 1rem 1rem;
+    margin: 1rem;
 }
 
 caption {

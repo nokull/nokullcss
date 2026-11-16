@@ -93,8 +93,13 @@ textarea::placeholder {
     color: #888;
 }
 
-details {
+details,
+details[open] summary {
     border-color: rgba(255, 255, 255, 0.16);
+}
+
+details summary {
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 table {
