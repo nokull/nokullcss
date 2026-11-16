@@ -14,6 +14,11 @@
     --box-bg-color: #292929;
 
     --button-bg-color: #292929;
+    --button-hover-bg-color: #353535;
+    --button-click-bg-color: #404040;
+
+    --table-hover-bg-color: rgba(255, 255, 255, 0.05);
+    --kbd-bg-color: #242424;
 
     --blockquote-bg-color: #232323;
     --blockquote-border: 1px solid rgba(255, 255, 255, 0.1);
@@ -45,11 +50,6 @@ a:hover {
 button {
     background: var(--button-bg-color);
     border-color: rgba(255, 255, 255, 0.16);
-    border-bottom-color: rgba(0, 0, 0, 0.5);
-}
-
-button:disabled {
-    border-bottom: var(--border);
 }
 
 blockquote {
@@ -118,6 +118,13 @@ code {
     background-color: var(--box-bg-color);
     color: var(--text-color);
     border-color: rgba(255, 255, 255, 0.08);
+}
+
+kbd {
+    background-color: var(--kbd-bg-color);
+    border-color: rgba(255, 255, 255, 0.16);
+    border-bottom-color: rgba(255, 255, 255, 0.28);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
 
 pre {

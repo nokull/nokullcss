@@ -15,6 +15,8 @@
     --button-bg-color: #ebebeb;
     --button-hover-bg-color: #dadada;
     --button-click-bg-color: #cacaca;
+    --table-hover-bg-color: rgba(0, 0, 0, 0.05);
+    --kbd-bg-color: #fafafa;
     --blockquote-bg-color: #f0f0f0;
     --blockquote-border: 1px solid rgba(0, 0, 0, 0.12);
     --blockquote-border-left: 5px solid #3f3f3f;
@@ -268,6 +270,14 @@ tr:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.02);
 }
 
+tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+tbody tr:hover {
+    background-color: var(--table-hover-bg-color);
+}
+
 pre {
     background-color: #2d2d2d;
     color: #f8f8f2;
@@ -298,4 +308,18 @@ code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     font-size: 0.85em;
     border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+kbd {
+    background-color: var(--kbd-bg-color);
+    color: var(--text-color);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.85em;
+    border: var(--border);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    line-height: 1.2;
 }
